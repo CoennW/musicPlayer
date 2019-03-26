@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+#musicPlayer {
+    font-family: 'Muli', sans-serif;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 300px;
+}
+
+#musicPlayerList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+#musicPlayerList li {
+    padding: 5px 0;
+}
+#musicPlayerList li.active {
+    font-weight: bold;
+    color: orange;
+}
+
+#musicPlayer button {
+    background: orange;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
